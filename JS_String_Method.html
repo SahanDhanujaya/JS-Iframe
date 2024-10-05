@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello java</h1>
+    <button id="btn">Click Me</button>
+    <script>
+        var h1 = document.querySelector("h1").innerText;
+        console.log(h1.charAt(6));
+        console.log(h1.charCodeAt(6));
+        var str1 = "Hi Hello";
+        var str2 = "Lanka"; 
+        console.log(str1.concat(str2));
+        console.log(str1.concat(" ",str2));//can parse 1 or  another values
+        console.log(str1.endsWith("lo"));//true
+        console.log(str1.startsWith("W")); //false
+        console.log(String.fromCharCode("72"));//fromCharCode from String class return the letter same for 72
+        str1.includes("Hello");
+        str1.length("str1");
+        document.getElementById("btn").addEventListener('click',function (){
+            console.log("Button eka wada");
+            alert('Button eka wada');
+        });
+
+    </script>
+</body>
+</html>
